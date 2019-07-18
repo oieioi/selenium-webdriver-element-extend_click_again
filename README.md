@@ -1,6 +1,6 @@
 # Selenium::Webdriver::Element::ExtendClickAgain
 
- `Selenium::WebDriver::Element#click` sometimes fails because the element is not clickable and other element would receive the click. This gem extend `click` to scroll the element into the center to avoid that.
+ `Selenium::WebDriver::Element#click` sometimes fails because the element is not clickable and other element receives the click. This gem extends `click` to scroll the element into the center to avoid that.
 
 ## Installation
 
