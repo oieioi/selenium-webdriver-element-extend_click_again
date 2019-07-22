@@ -4,9 +4,9 @@ require 'selenium/webdriver/element/extend_click_again/version'
 
 module Selenium
   module WebDriver
-    # monkey patch
     class Element
       # @override
+      # monkey patch
       def click
         bridge.click_element @id
       rescue Selenium::WebDriver::Error::WebDriverError
